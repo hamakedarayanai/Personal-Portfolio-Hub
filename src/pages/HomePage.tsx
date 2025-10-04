@@ -19,7 +19,7 @@ const HomePage: React.FC = () => {
     <div className="animate-fade-in">
       <section className="text-center py-10 bg-surface rounded-lg shadow-lg">
         <img
-          src="/img/profile-picture.jpg"
+          src="/profile-picture.jpg"
           alt="Profile of Hamake D. Arayanai"
           className="w-32 h-32 mx-auto rounded-full border-4 border-primary shadow-xl object-cover"
           width="128"
