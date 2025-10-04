@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hamake D. Arayanai | Official Website</title>
+    <meta name="theme-color" content="#121212">
+    <meta name="description" content="Official website of Hamake D. Arayanai. Connect via social media and explore content creation journey.">
+    <meta name="keywords" content="Hamake D. Arayanai, content creator, social media influencer, official website">
+    <meta name="author" content="Hamake D. Arayanai">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/img/favicon.png">
+    <link rel="apple-touch-icon" href="/img/favicon.png">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Hamake D. Arayanai | Official Website">
+    <meta property="og:description" content="Connect with Hamake D. Arayanai through social media and explore exclusive content.">
+    <meta property="og:image" content="/img/profile-picture.jpg">
+    <meta property="og:image:alt" content="Profile picture of Hamake D. Arayanai">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Hamake D. Arayanai | Official Website">
+    <meta name="twitter:description" content="Connect with Hamake D. Arayanai through social media and explore exclusive content.">
+    <meta name="twitter:image" content="/img/profile-picture.jpg">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'primary': '#4a6fa5',
+              'primary-hover': '#3a5a8c',
+              'background': '#121212',
+              'surface': '#1e1e1e',
+              'surface-elevated': '#2a2a2a',
+              'text-primary': '#f0f0f0',
+              'text-secondary': '#b0b0b0',
+              'border-color': '#333333',
+            },
+            fontFamily: {
+               sans: ['Poppins', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif'],
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.5s ease-in-out',
+              'slide-up': 'slideUp 0.5s ease-out forwards',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: 0 },
+                '100%': { opacity: 1 },
+              },
+              slideUp: {
+                '0%': { transform: 'translateY(20px)', opacity: '0' },
+                '100%': { transform: 'translateY(0)', opacity: '1' },
+              },
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.3"
+  }
+}
+</script>
+</head>
+  <body class="bg-background text-text-primary font-sans antialiased">
+    <div id="root"></div>
+  </body>
+</html>
