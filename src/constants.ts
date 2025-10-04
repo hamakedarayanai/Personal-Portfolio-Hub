@@ -31,6 +31,7 @@ export const SITE_LINKS: SiteLink[] = [
     { name: 'AI Brand Strategist', url: 'https://abs.hamakedarayanai.my.id/'},
     { name: 'Research Rabbit Hole', url: 'https://rrh.hamakedarayanai.my.id/'},
     { name: 'AI Video Editor Assistant', url: 'https://avea.hamakedarayanai.my.id/'},
+    { name: 'AI Image Editor Assistant', url: 'https://aiea.hamakedarayanai.my.id/'},
     { name: 'E-Commerce Product Storyteller', url: 'https://ecps.hamakedarayanai.my.id/'},
     { name: 'AI Design System Generator', url: 'https://adsg.hamakedarayanai.my.id/'},
     { name: 'Multimodal Ad Creator', url: 'https://mac.hamakedarayanai.my.id/'},
