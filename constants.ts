@@ -13,7 +13,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
 ];
 
 export const SITE_LINKS: SiteLink[] = [
-    { name: 'Harapan Baru Service', url: 'http://harapanbaruservice.biz.id/'},
+    { name: 'Harapan Baru Service', url: 'http://web.harapanbaruservice.biz.id/'},
     { name: 'Gemini Prompt Engine', url: 'https://gpe.hamakedarayanai.my.id/'},
     { name: 'Image Detailer AI', url: 'https://id.hamakedarayanai.my.id/'},
     { name: 'InstaCaption AI', url: 'https://ica.hamakedarayanai.my.id/'},
