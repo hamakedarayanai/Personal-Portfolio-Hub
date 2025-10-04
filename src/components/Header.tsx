@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import { Logo } from './icons/Logo';
 
 const navLinks = [
   { path: '/', name: 'Home' },
@@ -18,8 +19,9 @@ const Header: React.FC = () => {
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <NavLink to="/" className="text-xl font-bold text-text-primary">
-              Hamake D. Arayanai
+            <NavLink to="/" className="flex items-center text-xl font-bold text-text-primary">
+              <Logo className="h-8 w-8 mr-3 text-primary" />
+              <span>Hamake D. Arayanai</span>
             </NavLink>
           </div>
           <div className="hidden md:block">
