@@ -18,14 +18,7 @@ const HomePage: React.FC = () => {
   return (
     <div className="animate-fade-in">
       <section className="text-center py-10 bg-surface rounded-lg shadow-lg">
-        <img
-          src="/profile-picture.jpg"
-          alt="Profile of Hamake D. Arayanai"
-          className="w-32 h-32 mx-auto rounded-full border-4 border-primary shadow-xl object-cover"
-          width="128"
-          height="128"
-        />
-        <h1 className="mt-6 text-4xl font-bold text-text-primary">Hamake D. Arayanai</h1>
+        <h1 className="text-4xl font-bold text-text-primary">Hamake D. Arayanai</h1>
         <p className="mt-2 text-lg text-text-secondary">"Love me or hate me, but spare me your indifference."</p>
       </section>
 
